@@ -9,18 +9,6 @@ slides.forEach(
     }
 )
 
-const goNext = () =>{
-    counter++
-    slideImage()
-    if (counter >= slides.length - 1) {
-        nextButton.disabled = true;
-    }
-}
-const goPrev = () =>{
-    counter--
-    nextButton.disabled = false;
-    slideImage()
-}
 
 
 const slideImage = () =>{
