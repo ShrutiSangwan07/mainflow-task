@@ -64,31 +64,46 @@
         </div>
     </section>
 
+    <section class="slideshow">
+        <h1 class="h-primary center">Enjoy our delicious meals!</h1>
+    <div class="carousel-container">
+        <img src="/img/card 2.jpg" alt="" class="slide">
+        <img src="/img/card 3.jpg" alt="" class="slide">
+        <img src="/img/card 4.jpg" alt="" class="slide">
+        <img src="/img/card 5.jpg" alt="" class="slide">
+        <img src="/img/card 6.jpg" alt="" class="slide">
+        <img src="/img/card 7.jpg" alt="" class="slide">
 
+        <button onclick="goPrev()">Previous</button>
+        <button onclick="goNext()" id="nextButton">Next</button>
+    </div>
+</section>
 
-    <section id="contact">
-        <h1 class="h-primary center">Contact Us</h1>
-        <div id="contact-box">
-            <form action="">
-                <div class="form-group">
-                    <label for="name">Name: </label>
-                    <input type="text" name="name" id="name" placeholder="Enter your name">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email: </label>
-                    <input type="email" name="name" id="email" placeholder="Enter your email">
-                </div>
-                <div class="form-group">
-                    <label for="phone">Phone Number: </label>
-                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
-                </div>
-                <div class="form-group">
-                    <label for="message">Message: </label>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                </div>
-            </form>
-        </div>
-    </section>
+<section id="contact">
+    <h1 class="h-primary center">Contact Us</h1>
+    <div id="contact-box">
+        <form action="" id="contact-form">
+            <div class="form-group">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email: </label>
+                <input type="email" name="name" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number: </label>
+                <input type="phone" name="name" id="phone" placeholder="Enter your phone" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message: </label>
+                <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
 
 
     <footer>
@@ -96,6 +111,8 @@
             Copyright &copy; www.KingsChaat.com. All rights reserved!
         </div>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 
 </html>

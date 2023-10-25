@@ -17,7 +17,7 @@ html {
 #navbar {
     display: flex;
     align-items: center;
-    position: sticky;
+    position: relative;
     top: 0px;
 }
 
@@ -135,12 +135,45 @@ html {
 #services-container {
     height: 811px;
     width: 1519px;
-    opacity: 0.90;
+    background-color: antiquewhite;
 }
 
 #services-container .box:hover {
     background-color: white;
 }
+
+
+.slideshow{
+    background-color: antiquewhite;
+    position: relative;
+    height: 697px;
+}
+.carousel-container {
+    width: 100%;
+    height: 500px;
+    box-shadow: 0px 0px 3px grey;
+    top: 22px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+img{
+    width: 101%;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+}
+
+
+.carousel-container button {
+    font-size: 25px;
+    padding: 25px;
+}
+
 
 
 /* Contact Section */
@@ -183,7 +216,13 @@ html {
     font-family: 'Bree Serif', serif;
 
 }
-
+button{
+    width: 108px;
+    height: 32px;
+    border-radius: 13px;
+    text-align: center;
+    font-size: 1.3rem;
+}
 
 footer {
     background: black;
@@ -215,6 +254,8 @@ footer {
     font-size: 1.5rem;
     border-radius: 10px;
     cursor: pointer;
+    width: 167px;
+    height: 40px;
 }
 
 .center {
