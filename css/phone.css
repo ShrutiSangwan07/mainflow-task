@@ -8,12 +8,9 @@
     padding: 0px 7px;
     padding-bottom: 8px;
 }
-#navbar ul li a {
-    color: white;
-    display: block;
-    padding: 3px 22px;
-    border-radius: 20px;
-    text-decoration: none;
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
     height: 23px;
 }
 
@@ -44,7 +41,7 @@
 
 }
 #services-container {
-    height: 1800px;
+    height: 1880px;
     width: 360px;
     opacity: 0.90;
    margin-top: -18px;
