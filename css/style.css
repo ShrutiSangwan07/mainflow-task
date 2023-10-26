@@ -142,14 +142,14 @@ html {
     background-color: white;
 }
 
-
+/* slideshow section */
 .slideshow{
     background-color: antiquewhite;
     position: relative;
     height: 697px;
 }
 .carousel-container {
-    width: 100%;
+    width: 76%;
     height: 500px;
     box-shadow: 0px 0px 3px grey;
     top: 22px;
