@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    width: auto;
 }
 
 html {
@@ -28,7 +29,7 @@ html {
     top: 0px;
     left: 0px;
     height: 100%;
-    width: 100%;
+    width: auto;
     z-index: -1;
     opacity: 0.7;
 }
@@ -86,7 +87,7 @@ html {
     height: 642px;
     top: 0px;
     left: 0px;
-    width: 100%;
+    width: auto;
     z-index: -1;
     opacity: 0.89;
 }
@@ -135,7 +136,7 @@ html {
 
 #services-container {
     height: 811px;
-    width: 1519px;
+    width: auto;
     background-color: antiquewhite;
 }
 
@@ -144,11 +145,13 @@ html {
 }
 
 /* slideshow section */
-.slideshow{
+.slideshow {
     background-color: antiquewhite;
     position: relative;
     height: 697px;
+    width: auto;
 }
+
 .carousel-container {
     width: 76%;
     height: 500px;
@@ -159,10 +162,11 @@ html {
     overflow: hidden;
 }
 
-img{
+img {
     width: 101%;
 }
-.slide{
+
+.slide {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -185,7 +189,7 @@ img{
 #contact::before {
     content: "";
     position: absolute;
-    width: 100%;
+    width: auto;
     height: 100%;
     z-index: -1;
     opacity: 0.7;
@@ -217,7 +221,8 @@ img{
     font-family: 'Bree Serif', serif;
 
 }
-button{
+
+button {
     width: 108px;
     height: 32px;
     border-radius: 13px;
@@ -230,7 +235,7 @@ footer {
     color: white;
     padding: 41px 20px;
     text-align: center;
-
+    width: auto;
 }
 
 /* Utility Classes */
