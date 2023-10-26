@@ -3,12 +3,11 @@
     flex-direction: column;
 }
 
-#navbar ul li a {
+#navbar ul li a{
     font-size: 1rem;
     padding: 0px 7px;
     padding-bottom: 8px;
 }
-
 #navbar ul li a:hover {
     color: black;
     background-color: white;
@@ -16,38 +15,37 @@
 }
 
 /* Home section */
-#home {
-    height: 370px;
+#home{
+    height: 370px; 
     padding: 3px 28px;
 }
 
-#home::before {
-    height: 480px;
+#home::before{
+    height: 480px; 
 }
 
-#home p {
+#home p{
     font-size: 13px;
 }
 
 /* Services section  */
-#services {
+#services{
     flex-direction: column;
-    margin: 34px;
+       margin: 34px;
 }
 
-#services .box {
+#services .box { 
     padding: 14px;
-    margin: 2px 0px;
+    margin: 2px 0px; 
     margin-bottom: 20px;
 
 }
-
 #services-container {
     height: 1880px;
     /* width: 360px; */
     width: auto;
     opacity: 0.90;
-    margin-top: -18px;
+   margin-top: -18px;
 }
 
 #services-container .box:hover {
@@ -55,51 +53,47 @@
 }
 
 
-/* carousal */
-
-.slideshow {
-    background-color: antiquewhite;
-    position: relative;
-    height: 697px;
-    width: 774px;
-}
-
-.carousel-container {
-    width: 76%;
-    height: 500px;
-    box-shadow: 0px 0px 3px grey;
-    top: 22px;
-    margin: auto;
-    position: relative;
-    overflow: hidden;
-}
-
+        /* carousal */
+    
+        .slideshow {
+            background-color: antiquewhite;
+            position: relative;
+            height: 697px;
+            width: 774px;
+        }
+    
+        .carousel-container {
+            width: 100%;
+            height: 500px;
+            box-shadow: 0px 0px 3px grey;
+            top: 22px;
+            margin: auto;
+            position: relative;
+            overflow: hidden;
+        }
 /* Contact us section */
 #contact {
     /* position: relative; */
     margin-top: -17px;
 }
-
-#contact-box form {
-    width: 80%;
+#contact-box form{
+    width:80%;
 }
-
 /* Footer */
 footer {
     background: black;
     color: white;
     padding: 41px 20px;
     text-align: center;
-    margin-top: -17px;
+margin-top: -17px;
 }
 
 
 /* Utility classes */
-.h-primary {
-    font-size: 26px;
+.h-primary{
+    font-size:26px;
 }
-
-.btn {
+.btn{
     font-size: 13px;
     padding: 4px 8px;
 }
