@@ -42,7 +42,8 @@
 }
 #services-container {
     height: 1880px;
-    width: 360px;
+    /* width: 360px; */
+    width: auto;
     opacity: 0.90;
    margin-top: -18px;
 }
