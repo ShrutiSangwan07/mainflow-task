@@ -108,6 +108,7 @@ html {
 #services {
     margin: 34px;
     display: flex;
+    width: auto;
 }
 
 
