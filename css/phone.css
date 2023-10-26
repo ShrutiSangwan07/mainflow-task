@@ -59,7 +59,8 @@
             background-color: antiquewhite;
             position: relative;
             height: 697px;
-            width: 600px;
+            /* width: 600px; */
+            width: auto;
         }
     
         .carousel-container {
