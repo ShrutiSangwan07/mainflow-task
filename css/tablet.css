@@ -1,4 +1,5 @@
 /* Navigation */
+
 #navbar {
     flex-direction: column;
     width: auto;
@@ -6,7 +7,7 @@
 
 #navbar ul li a {
     font-size: 1rem;
-    padding: 0px 7px;
+    padding: 0px 30px;
     padding-bottom: 8px;
 }
 
@@ -37,8 +38,9 @@
 }
 
 #services .box {
+    overflow: hidden;
     padding: 14px;
-    margin: 2px 179px;
+    margin: 2px 50px;
     margin-bottom: 20px;
     height: 414px;
 }
@@ -96,7 +98,7 @@ footer {
 
 /* Utility classes */
 .h-primary {
-    font-size: 26px;
+    font-size: 50px;
 }
 
 .btn {
