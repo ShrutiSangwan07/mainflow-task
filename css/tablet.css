@@ -38,16 +38,14 @@
 
 #services .box {
     padding: 14px;
-    margin: 2px 0px;
+    margin: 2px 179px;
     margin-bottom: 20px;
-
+    height: 414px;
 }
 
 #services-container {
-    height: 1880px;
-    /* width: 360px; */
+    height: 1610px;
     width: auto;
-    opacity: 0.90;
     margin-top: -18px;
 }
 
